@@ -1,0 +1,53 @@
+body {
+    background: black;
+    font-family:'Courier New', Courier, monospace;
+    display: grid;
+    place-items: center;
+}
+
+a {
+    /* background: linear-gradient(to bottom, olivedrab 30%, red 100%); */
+    /* background: white; */
+    color: rgb(75, 75, 75);
+}
+
+pre {
+    margin: 100px;
+    text-align: center;
+    background: linear-gradient(to bottom, olivedrab 0%, rgb(144, 0, 2) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}   
+
+p {
+    margin: 20px;
+    text-align: center;
+}
+
+.stem {
+    color: olivedrab;
+}
+
+.petiole {
+    color: rgb(114, 125, 40);
+}
+
+.base {
+    color: rgb(118, 118, 39);
+}
+
+.vein {
+    color: rgb(126, 93, 31);
+}
+
+.blade {
+    color: rgb(131, 69, 23);
+}
+
+.midrib {
+    color: rgb(136, 55, 19);
+}
+
+.tip {
+    color: rgb(142, 12, 4);
+}
